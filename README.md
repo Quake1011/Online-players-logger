@@ -6,8 +6,8 @@
 
 ## Setup
 1)	Replace
-	+ **OnlinePlayersLog.ini** â addons/sourcemod/configs/
-	+ **OnlinePlayersLog.smx** â addons/sourcemod/plugins/
+	+ **OnlinePlayersLog.ini** in addons/sourcemod/configs/
+	+ **OnlinePlayersLog.smx** in addons/sourcemod/plugins/
 2)	To configure **OnlinePlayersLog.ini**
 3)	Load the plugin/restart the server
 
@@ -18,7 +18,7 @@
 {
     //    "id"        "time"
     "0"         "07:00"    //the time at which to do logging
-    "1"         "23:00"    //specify hours only in this format:minutes
+    "1"         "23:00"    //specify only in this format hours:minutes
     "2"         "17:23"
     "3"         "11:56"
     "4"         "21:33"
